@@ -154,10 +154,26 @@ p{
 }
 
 footer{
+    background-color: rgb(203, 223, 223);
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
    
 
 }
+.footer-1{
+    text-align: center;
+}
 
-.pagina{
-    color: rgb(93, 97, 95);
+.redes-sociales{
+   
+    text-align: center;
+}
+.redes-sociales ul li{
+    display: inline-block;
+}
+
+.footer{
+    text-align: center;
+
 }
