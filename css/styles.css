@@ -19,7 +19,7 @@ a{
     text-decoration: none;
     font-weight: 600;
     padding-right: 10px;
-    color: white;
+    color: rgb(85, 83, 83);
 
 }
 
@@ -102,19 +102,33 @@ nav li{
 }
 
 .blog-imagenes{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    max-width: 1100px;
+
 }
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+    
 .ramo-1{
     width: 300px;
+   
 }
 
 .ramo-2{
-    width: 300px;
+    width: 200px;
+    
 }
 
 .ramo-3{
     width: 300px;
+    
 }
 
 .adicionales{
@@ -140,6 +154,10 @@ p{
 }
 
 footer{
-    widows: 60px;
+   
 
+}
+
+.pagina{
+    color: rgb(93, 97, 95);
 }
