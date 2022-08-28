@@ -80,11 +80,17 @@ nav li{
 }
 
 .ingresar-correo{
-    width: auto;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(170, 224, 224);
+    height: 30px;
 }
 
 .enviar-correo{
-    width: auto;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(170, 224, 224);
 
 }
 
@@ -132,18 +138,29 @@ nav li{
 }
 
 .adicionales{
-    
+    display: flex;
    justify-content: center;
    align-items: center;
    text-align: center;
-    background-color: rgb(49, 80, 105);
+    background-image: url(https://th.bing.com/th/id/OIP.tiYeZKTIUexQosDREYR8kAEsDj?pid=ImgDet&rs=1)
 }
-
-h2{
+.ayudamos{
+    color: rgb(58, 18, 18);
+    
+}
+h3{
     width: auto;
+    color: rgb(179, 170, 52);
+}
+h4{
+    width: auto;
+    color: rgb(179, 170, 52);
 
 }
-
+h5{
+    width: auto;
+    color: rgb(179, 170, 52);
+}
 p{
     width: auto;
 }
